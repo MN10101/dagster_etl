@@ -64,7 +64,7 @@ Source → Extract → Transform → Validate → Load → Analytics
 
 ## 🖼️ Asset Dependency Graph
 
-![Asset Dependencies](Asset%20Dependency%20Graph.png) *How your data
+Asset Dependencies <img width="2163" height="1885" alt="Image" src="https://github.com/user-attachments/assets/e87fc06d-43a5-48dd-9da0-47fcb762b3a2" />*How your data
 assets depend on each other*
 
 ------------------------------------------------------------------------
