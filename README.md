@@ -91,7 +91,7 @@ assets depend on each other*
 ### Clone and Setup Environment
 
 ``` bash
-git clone <your-repo>
+git clone <https://github.com/MN10101/dagster_etl/tree/master>
 cd dagster-etl-project
 
 python -m venv venv
