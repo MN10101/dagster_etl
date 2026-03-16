@@ -15,7 +15,7 @@ PostgreSQL** demonstrating modern data engineering practices.
 
 ## 🖼️ Architecture Diagram
 
-Component Architecture <img src="https://github.com/user-attachments/assets/c22267e0-cd90-42ef-9c68-455cc2aad4d4" width="1000">
+Component Architecture <img src="https://github.com/user-attachments/assets/c22267e0-cd90-42ef-9c68-455cc2aad4d4" width="1200">
 
 ------------------------------------------------------------------------
 
