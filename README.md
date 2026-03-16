@@ -181,7 +181,7 @@ pytest tests/ -v
 
 ## 🖼️ Test Results
 
-![Pytest Results](m.png) *All 7 tests passing successfully*
+Pytest Results <img width="1381" height="293" alt="Image" src="https://github.com/user-attachments/assets/a966b132-c2bd-40e4-a4fd-51feb1207318" /> *All 7 tests passing successfully*
 
 ------------------------------------------------------------------------
 
@@ -207,7 +207,7 @@ Volumes:
 
 ## 🖼️ Docker Network Architecture
 
-![Docker Setup](Docker%20Network%20Architecture.png) *Container
+Docker Setup <img width="4263" height="2251" alt="Image" src="https://github.com/user-attachments/assets/c5856280-9f26-43a9-8d0e-e92a3449b3b3" /> *Container
 orchestration with Docker*
 
 ------------------------------------------------------------------------
@@ -221,7 +221,7 @@ orchestration with Docker*
 
 ## 🖼️ Data Lineage Diagram
 
-![Data Lineage](Data%20Lineage.png) *End-to-end data flow from source to
+Data Lineage <img width="4937" height="1653" alt="Image" src="https://github.com/user-attachments/assets/63bb8490-7369-4ec5-adf5-b6b2388598a6" /> *End-to-end data flow from source to
 destination*
 
 ------------------------------------------------------------------------
@@ -234,14 +234,14 @@ Use the Dagster UI to inspect job runs and logs.
 
 ## 🖼️ Run Logs - Extract Job
 
-![Extract Users Job Run](m1.png) *Successful execution of
+Extract Users Job <img width="1919" height="1036" alt="Image" src="https://github.com/user-attachments/assets/18924f66-5850-4369-b07c-dff465f398a4" /> Run*Successful execution of
 extract_users_job showing 100 users extracted*
 
 ------------------------------------------------------------------------
 
 ## 🖼️ Run Logs - Load Job
 
-![Load Users Job Run](m2.png) *Successful execution of load_users_job
+Load Users Job Run <img width="1919" height="1036" alt="Image" src="https://github.com/user-attachments/assets/0de2460e-fbe4-48df-93e1-357878459a37" /> *Successful execution of load_users_job
 showing data loaded to database*
 
 ------------------------------------------------------------------------
@@ -256,7 +256,7 @@ docker exec -it docker-postgres-1 psql -U postgres -d postgres -c "SELECT COUNT(
 
 ## 🖼️ PostgreSQL Verification
 
-![Database Results](m4.png) *Verified 100 users loaded with correct age
+Database Results <img width="1519" height="645" alt="Image" src="https://github.com/user-attachments/assets/f2f7c204-81fb-4856-a340-7c605ebc0a0d" /> *Verified 100 users loaded with correct age
 distribution*
 
 ------------------------------------------------------------------------
