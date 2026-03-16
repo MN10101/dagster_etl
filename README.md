@@ -7,6 +7,12 @@ PostgreSQL** demonstrating modern data engineering practices.
 
 ------------------------------------------------------------------------
 
+## Author
+**Mahmoud Najmeh**  
+<img src="https://avatars.githubusercontent.com/u/78208459?u=c3f9c7d6b49fc9726c5ea8bce260656bcb9654b3&v=4" width="200px" style="border-radius: 50%;">
+
+------------------------------------------------------------------------
+
 ## 🖼️ Architecture Diagram
 
 ![Component Architecture](Component%20Architecture.png) *Dagster
@@ -280,9 +286,3 @@ Cleanup:
 ``` bash
 docker-compose down -v
 ```
-
-------------------------------------------------------------------------
-
-## 👨‍💻 Author
-
-**Mahmoud Najmeh**
