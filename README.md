@@ -128,7 +128,7 @@ localhost:5432
 
 ## 🖼️ Job Overview
 
-![Dagster Jobs](m3.png) *Available jobs in the Dagster UI*
+Dagster Jobs <img width="1919" height="1036" alt="Image" src="https://github.com/user-attachments/assets/ca0335ff-216c-432b-8157-29196b9995b8" /> *Available jobs in the Dagster UI*
 
 ------------------------------------------------------------------------
 
