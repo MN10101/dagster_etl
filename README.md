@@ -36,6 +36,14 @@ Source → Extract → Transform → Validate → Load → Analytics
 
 ------------------------------------------------------------------------
 
+## 🖼️ Complete Architecture Overview
+
+<img width="8347" height="6828" alt="Image" src="https://github.com/user-attachments/assets/c8b2aa30-9beb-4189-91d8-27ed034c4544" />
+
+*End-to-end data pipeline architecture showing data sources, ETL process, and Dagster components*
+
+------------------------------------------------------------------------
+
 ## 🏗️ Project Structure
 
     dagster-etl-project/
