@@ -172,7 +172,7 @@ Output:
 
 ## 🖼️ Execution Flow
 
-ETL Process Flow <img width="1022" height="7097" alt="Image" src="https://github.com/user-attachments/assets/769b9d09-a2fb-4072-ab1f-d5c88d9cd40f" /> *Step-by-step execution of the
+ETL Process Flow <img src="https://github.com/user-attachments/assets/769b9d09-a2fb-4072-ab1f-d5c88d9cd40f" width="700"> *Step-by-step execution of the
 ETL pipeline*
 
 ------------------------------------------------------------------------
