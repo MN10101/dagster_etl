@@ -15,7 +15,7 @@ PostgreSQL** demonstrating modern data engineering practices.
 
 ## 🖼️ Architecture Diagram
 
-![Component Architecture](Component%20Architecture.png) *Dagster
+![Component Architecture](<img width="7584" height="1148" alt="Image" src="https://github.com/user-attachments/assets/c22267e0-cd90-42ef-9c68-455cc2aad4d4" />) *Dagster
 component layers from frontend to infrastructure*
 
 ------------------------------------------------------------------------
