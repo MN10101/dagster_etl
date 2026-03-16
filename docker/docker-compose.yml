@@ -1,0 +1,56 @@
+services:
+  postgres:
+    image: postgres:14
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  dagster:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - POSTGRES_CONNECTION_STRING=postgresql://postgres:postgres@postgres:5432/postgres
+      - DAGSTER_HOME=/app/dagster_home
+    env_file: []
+    volumes:
+      - ../data:/app/data
+      - ../dagster_etl:/app/dagster_etl
+      - dagster_home:/app/dagster_home
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: dagster-webserver -h 0.0.0.0 -p 3000
+
+  dagster-daemon:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    environment:
+      - POSTGRES_CONNECTION_STRING=postgresql://postgres:postgres@postgres:5432/postgres
+      - DAGSTER_HOME=/app/dagster_home
+    env_file: []
+    volumes:
+      - ../data:/app/data
+      - ../dagster_etl:/app/dagster_etl
+      - dagster_home:/app/dagster_home
+    depends_on:
+      - postgres
+      - dagster
+    command: dagster-daemon run
+
+volumes:
+  postgres_data:
+  dagster_home:
