@@ -2,7 +2,7 @@
 
 ## 🎯 Project Overview
 
-A production-ready ETL pipeline built with **Dagster, Docker, and
+ETL pipeline built with **Dagster, Docker, and
 PostgreSQL** demonstrating modern data engineering practices.
 
 ------------------------------------------------------------------------
