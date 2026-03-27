@@ -13,6 +13,23 @@ PostgreSQL** demonstrating modern data engineering practices.
 
 ------------------------------------------------------------------------
 
+## 💡 Key Features
+
+- Automated ETL pipeline processing user and order data
+- Data quality validation at every step
+- Docker containerization for easy deployment
+- 7 comprehensive tests with 100% pass rate
+- Daily scheduled execution at 9 AM
+
+------------------------------------------------------------------------
+
+> ⚠️ **Note:** This project is configured for local development only.  
+> Default credentials (e.g., `postgres:postgres`) are intentionally used for simplicity.  
+> **Do not use this configuration in production environments.**
+
+------------------------------------------------------------------------
+
+
 ## 🖼️ Architecture Diagram
 
 Component Architecture <img src="https://github.com/user-attachments/assets/c22267e0-cd90-42ef-9c68-455cc2aad4d4" width="1200">
@@ -86,13 +103,13 @@ assets depend on each other*
 
 ------------------------------------------------------------------------
 
-## 🧑‍💻 Local Development Setup
+## 🧑‍💻 Local Development (Dev Only)
 
 ### Clone and Setup Environment
 
 ``` bash
-git clone <https://github.com/MN10101/dagster_etl/tree/master>
-cd dagster-etl-project
+git clone https://github.com/MN10101/dagster_etl.git
+cd dagster_etl
 
 python -m venv venv
 source venv/bin/activate
@@ -111,6 +128,8 @@ Create a `.env` file:
 ------------------------------------------------------------------------
 
 ## 🐳 Run with Docker
+
+> ⚠️ Uses default development credentials (see note above)
 
 ``` bash
 cd docker
