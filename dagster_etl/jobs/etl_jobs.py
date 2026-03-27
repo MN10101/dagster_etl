@@ -1,11 +1,12 @@
 from dagster import job, op
 import pandas as pd
 from dagster_etl.resources.postgres_resource import postgres_resource
+from dagster_etl.assets.user_assets import extract_users
+from dagster_etl.assets.user_assets import transform_users
 
 @op
 def extract_users_op(context):
     """Extract users from source"""
-    from dagster_etl.assets.user_assets import extract_users
     df = extract_users()
     context.log.info(f"Extracted {len(df)} users")
     return df
@@ -13,7 +14,6 @@ def extract_users_op(context):
 @op
 def transform_users_op(context, users_df):
     """Transform users data"""
-    from dagster_etl.assets.user_assets import transform_users
     df = transform_users(users_df)
     context.log.info(f"Transformed {len(df)} users")
     return df
